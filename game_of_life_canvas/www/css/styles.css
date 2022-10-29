@@ -1,0 +1,35 @@
+html, body {height: 100%;margin: 0; padding: 0}
+* {
+    overflow: hidden!important;
+}
+
+.container { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px; 
+    border: 1px solid black; 
+    width: 70%; 
+} 
+
+main {
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 600px;
+}
+
+pre {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 1024px;
+}
+

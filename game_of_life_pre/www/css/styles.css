@@ -1,0 +1,23 @@
+html, body {height: 100%;margin: 0; padding: 0}
+* {
+    overflow: hidden!important;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+canvas {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 600px;
+}
+
+pre {
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 600px;
+}
